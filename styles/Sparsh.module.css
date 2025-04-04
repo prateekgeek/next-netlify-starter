@@ -1,0 +1,67 @@
+.main {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.mission {
+  text-align: center;
+}
+
+.services ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.services li {
+  text-align: center;
+}
+
+.services li img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
+
+.techInitiatives {
+  background-color: #f8f8f8;
+}
+
+.getInvolved {
+  text-align: center;
+}
+
+.getInvolved a {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer a {
+  margin: 0 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .main {
+    padding: 30px 10px;
+  }
+  .services ul {
+    grid-template-columns: 1fr;
+  }
+}
